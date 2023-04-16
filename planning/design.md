@@ -2,16 +2,6 @@
 
 ## Project's design overview
 
-> Give an overview of your project's design
+> This is the wireframe for HackYourFuture rebuild, like planned in the backlog everything in this project will be a must have.
 
-<!-- give an overview of your project's design -->
-<!-- describe the reasoning behind your group's design and wireframe -->
-<!-- include other centralized decisions like fonts, palates, ... -->
-
----
-
-## Wireframe(s)
-
-> Include your wireframe(s) and link to wireframe
-
-<!-- provide a link to your wireframe documenting on Figma, or wherever it is -->
+![design](img/hyfdesign.png)
