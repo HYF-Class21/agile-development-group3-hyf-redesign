@@ -4,13 +4,14 @@ Some boundaries around our project.
 
 ## External
 
-- Limited Time
+- Time limit: 2 weeks
 
 ## Internal: Involuntary
 
 - we will use slack & zoom for communication.
-- we have less availability.
 - we can spend 5hrs. per day.
+- We have limited HTML & CSS knowledge.
+- We don't have much in common time.
 
 ### Technologies
 
