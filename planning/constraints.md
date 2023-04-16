@@ -12,13 +12,13 @@ Some boundaries around our project.
 - we have less availability.
 - we can spend 5hrs. per day.
 
-  ### Technologies
+### Technologies
 
-  - HTML
-  - CSS
-  - Vs code
-  - Git
+- HTML
+- CSS
+- Vs code
+- Git
 
-  ### Methadologies
+### Methadologies
 
-  - Agile
+- Agile
