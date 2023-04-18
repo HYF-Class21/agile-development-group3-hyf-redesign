@@ -276,7 +276,6 @@ ul {
   font-size: 16px;
   font-family: "Space Mono", monospace;
   margin: 0;
-  white-space: pre-wrap;
   word-break: break-word;
   font-weight: 300;
 }
@@ -332,7 +331,6 @@ ul {
   font-size: 16px;
   font-family: "Space Mono", monospace;
   margin: 0;
-  white-space: pre-wrap;
   word-break: break-word;
   font-weight: 300;
 }
@@ -464,7 +462,6 @@ ul {
   -webkit-box-pack: end;
   justify-content: flex-end;
   max-width: 600px;
-  flex-wrap: wrap;
 }
 
 .pro-img {
@@ -495,7 +492,6 @@ ul {
   font-size: 16px;
   font-family: "Work Sans", sans-serif;
   margin: 10px 0 0;
-  white-space: pre-wrap;
   word-break: break-word;
   font-weight: 300;
 }
@@ -546,7 +542,6 @@ ul {
   font-size: 16px;
   font-family: "Space Mono", monospace;
   margin: 0;
-  white-space: pre-wrap;
   word-break: break-word;
   font-weight: 300;
 }
@@ -821,7 +816,6 @@ ul {
   font-size: 16px;
   font-family: "Space Mono", monospace;
   margin: 0;
-  white-space: pre-wrap;
   word-break: break-word;
   font-weight: 300;
 }
@@ -834,7 +828,6 @@ ul {
   font-size: 16px;
   font-family: "Space Mono", monospace;
   margin: 0;
-  white-space: pre-wrap;
   word-break: break-word;
   font-weight: 300;
 }
@@ -866,7 +859,6 @@ ul {
   font-size: 16px;
   font-family: "Space Mono", monospace;
   margin: 0 10px;
-  white-space: pre-wrap;
   word-break: break-word;
   font-weight: 300;
 }
