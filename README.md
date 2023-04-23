@@ -35,8 +35,8 @@ to better serve your visitors.
 ## Technologies
 
 - Git Hub
-- Visual Studio
-- HTML
+- Visual Studio code
+- HTML5
 - CSS
 
 ## Methadologies
@@ -75,4 +75,4 @@ Website of [HYFBelgium](https://hackyourfuture.be/)
 - [Neha](https://github.com/Neha-2012)
 - [Addi](https://github.com/AddiAlomoush)
 - [Xinlou](https://github.com/XinGITLou)
-- Juhar
+- [Juhar](https://github.com/Juharzeynu)
