@@ -142,7 +142,7 @@ There should be a part of the page talking about `Volunteering`.
 
 ---
 
-## Magrints, Refugees and people who would like to change careers:
+## Magrints, Refugees and people who would like to change careers
 
 > "As a migrant, would like to enroll in a web development course
 
