@@ -1,0 +1,581 @@
+body {
+  background-color: white;
+}
+
+/* font rule */
+
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+  border: 0;
+
+  /* ? */
+
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 100%;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  vertical-align: baseline;
+}
+
+.logo {
+  width: 10%;
+  height: 10%;
+  margin: 10px 20px;
+}
+
+/* navigations */
+.container {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  overflow: auto;
+}
+
+.navi a {
+  text-decoration: none;
+  color: rgb(127, 127, 127);
+  padding: 10px;
+  margin: 0 5px;
+}
+
+.navi a:hover {
+  color: black;
+  border-bottom: 5px #4a50bb solid;
+}
+
+.navi ul {
+  font-size: 12px;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+button {
+  color: white;
+  padding: 10px 20px;
+  background-color: #4a50bb;
+  border-radius: 4px;
+  border-color: transparent;
+  margin: 10px 20px;
+}
+
+/* End of navigation and logo */
+
+/* picture and text */
+
+.class {
+  width: 100%;
+  position: relative;
+}
+
+.class h1 {
+  color: white;
+  font-size: 500%;
+  z-index: 1;
+  position: absolute;
+  max-width: 1000px;
+  top: 25%;
+  left: 10%;
+  justify-content: center;
+  align-items: center;
+}
+
+/* needs to be smaller */
+.mainpic {
+  width: 100%;
+  height: 550px;
+  filter: brightness(80%);
+}
+
+/* end of main picture */
+
+/* Introduction */
+
+.introduction {
+  width: 100%;
+  height: 400px;
+}
+
+.introtext {
+  margin: 50px 20px;
+  width: 40%;
+  height: 40%;
+  float: left;
+}
+
+.introtext h2 {
+  font-size: 20px;
+  color: #4a50bb;
+  margin: 0 0 30px 0;
+}
+
+.introtext p {
+  font: 16px;
+  font-family: "Space Mono", monospace;
+  margin: 0 0 20px 0;
+}
+
+.introtext b {
+  color: #4a50bb;
+}
+
+.intropic img {
+  width: 45%;
+  height: 45%;
+  float: right;
+  margin: 40px 40px;
+}
+
+.impact {
+  width: 100%;
+  height: 400px;
+
+  /* seperate parts */
+  box-shadow: rgba(0, 0, 0, 0.08) 0 0 53px;
+  padding: 50px;
+  margin-bottom: 50px;
+
+  /* fixed third box float outside 1 */
+  text-align: center;
+}
+
+.ourimpact {
+  color: #4a50bb;
+  font: monospace;
+  margin-left: 40%;
+  font-size: 24px;
+}
+
+.impacttext {
+  text-align: center;
+  max-width: 800px;
+  margin-left: 18%;
+  margin-top: 20px;
+  font-family: "Space Mono", monospace;
+}
+
+.impact p {
+  text-align: center;
+  font-family: "Space Mono", monospace;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.impact h2 {
+  text-align: left;
+}
+
+.box1 {
+  width: 29%;
+  height: 45%;
+  background-color: #4a50bb;
+  float: left;
+  padding: 20px;
+  margin: 20px 0;
+  color: white;
+  border-radius: 15%;
+}
+
+.box2 {
+  width: 29%;
+  height: 45%;
+  background-color: #4a50bb;
+  margin: 20px auto;
+  padding: 20px;
+
+  /* fix third box float outside 2 */
+  display: inline-block;
+  color: white;
+  border-radius: 15%;
+}
+
+.box3 {
+  width: 29%;
+  height: 45%;
+  background-color: #4a50bb;
+  padding: 20px;
+  margin: 20px auto;
+  float: right;
+  color: white;
+  border-radius: 15%;
+}
+
+/* corevalue */
+.corevalue {
+  padding: 100px 200px;
+}
+
+.corevalue h3 {
+  color: #4a50bb;
+  margin: 15px 0;
+}
+
+.corevalue p {
+  font-family: "Space Mono", monospace;
+}
+
+.ourvalue {
+  color: #4a50bb;
+  font: monospace;
+  font-size: 24px;
+}
+
+.community {
+  width: 400px;
+  height: 200px;
+
+  /* it is like a pile of boxes when you float divs */
+  float: right;
+  margin: 20px 0;
+}
+
+.diversity {
+  width: 400px;
+  height: 200px;
+  margin: 20px 0;
+}
+
+.commitment {
+  width: 400px;
+  height: 200px;
+
+  /* it is like a pile of boxes when you float divs,when you float the one above the following one will be pushed up */
+  float: right;
+}
+
+.open {
+  width: 400px;
+  height: 200px;
+}
+
+/* partner */
+.partner {
+  width: 100%;
+  height: 750px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0 0 53px;
+}
+
+.ourpartner {
+  margin: 40px 30px;
+  color: #4a50bb;
+  font: monospace;
+  font-size: 24px;
+}
+
+.partner img {
+  margin: 20px 20px;
+  width: 200px;
+  height: 200px;
+}
+
+/* Support */
+.support {
+  margin: 50px 0;
+  background-color: rgb(248, 249, 252);
+}
+
+.support h2 {
+  margin: 20px 20px;
+  color: #4a50bb;
+  font: monospace;
+  font-size: 24px;
+}
+
+.support p {
+  font-family: "Space Mono", monospace;
+}
+
+.supporttext {
+  line-height: 160%;
+  padding-right: 150px;
+  margin: 30px;
+  width: 40%;
+  height: 300px;
+  display: inline-block;
+}
+
+.donationbox {
+  float: right;
+  margin: 50px 300px 50px 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.checkbox {
+  /* puttting two checkbox in a row */
+  display: flex;
+  flex-direction: row;
+}
+
+.checkbox1 {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.checkbox2 {
+  height: 12px;
+  width: 12px;
+  border: 1px solid #4a50bb;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.donationbox p {
+  color: #4a50bb;
+}
+
+.checkbox p {
+  color: #4a50bb;
+}
+
+.amount {
+  margin-top: 10px;
+}
+
+.amount ul {
+  border: solid #4a50bb 1px;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0 20px 0;
+  color: #4a50bb;
+}
+
+.amount li {
+  border: solid 1px #4a50bb;
+  list-style: none;
+  padding: 10px;
+  color: #4a50bb;
+}
+
+.amount li:hover {
+  background-color: #4a50bb;
+  color: white;
+}
+
+.inputnumber {
+  width: 345px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px #4a50bb solid;
+  outline: none;
+  background-color: rgb(248, 249, 252);
+}
+
+.inputtext {
+  width: 345px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px #4a50bb solid;
+  outline: none;
+  background-color: rgb(248, 249, 252);
+}
+
+.donatebtn {
+  width: 100px;
+  margin: 15px 0 0 0;
+}
+
+/* contact */
+.con {
+  width: 100%;
+  height: 700px;
+}
+
+.contact {
+  width: 400px;
+  height: 530px;
+  padding-left: 20px;
+  background-color: #4a50bb;
+
+  /* ? can not get rid of the border */
+  border: 1px solid white;
+  border-bottom: none;
+}
+
+.contactcontainer {
+  float: left;
+}
+
+.contact h2 {
+  margin: 30px;
+  color: white;
+  font: monospace;
+  font-size: 24px;
+}
+
+.contact p {
+  max-width: 300px;
+  color: white;
+  font-family: "Space Mono", monospace;
+  margin-left: 30px;
+}
+
+.contact h3 {
+  color: white;
+  margin: 20px 30px;
+}
+
+.namebox {
+  width: 250px;
+  height: 25px;
+  background-color: #4a50bb;
+  border: white 1px solid;
+  border-radius: 5px;
+  margin-left: 30px;
+}
+
+.emailbox {
+  width: 250px;
+  height: 25px;
+  background-color: #4a50bb;
+  border: white 1px solid;
+  border-radius: 5px;
+  margin-left: 30px;
+}
+
+.messagebox {
+  width: 250px;
+  height: 130px;
+  background-color: #4a50bb;
+  border: white 1px solid;
+  border-radius: 5px;
+  margin-left: 30px;
+}
+
+.sendcontainer {
+  width: 400px;
+  height: 70px;
+  background-color: #4a50bb;
+  border: 1px white solid;
+  border-top: none;
+  margin-right: 0 auto;
+}
+
+.sendbtn {
+  background-color: white;
+  color: #4a50bb;
+  margin-left: 55px;
+}
+
+.mapcontainer {
+  float: right;
+}
+
+.googlemap {
+  width: 900px;
+  height: 600px;
+}
+
+/* social links */
+
+.socials {
+  text-align: center;
+  margin-top: 50px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0 0 53px;
+  padding-top: 20px;
+}
+
+.socials h2 {
+  margin: 20px 20px;
+  color: #4a50bb;
+  font: monospace;
+  font-size: 24px;
+}
+
+.socials p {
+  font-family: "Space Mono", monospace;
+}
+
+.socials img {
+  margin: 20px 10px;
+}
