@@ -333,6 +333,102 @@ button {
   height: 200px;
 }
 
+/* successful story */
+.cardslide {
+  width: 100%;
+  height: 600px;
+  background-color: white;
+}
+
+.cardslide h2 {
+  font: monospace;
+  color: rgb(28, 34, 148);
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.cardslide h4 {
+  color: #4a50bb;
+  margin-bottom: 10px;
+}
+
+.cardslide p {
+  font-family: "Space Mono", monospace;
+}
+
+.card1 img {
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+}
+
+.card2 img {
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+}
+
+.card3 img {
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+}
+
+.card1 {
+  height: 350px;
+  width: 350px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0 0 53px;
+  padding: 20px 10px 0 10px;
+  text-align: center;
+  float: left;
+  margin: 125px 20px 0 50px;
+}
+
+.card2 {
+  height: 400px;
+  width: 400px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 0 25px;
+  padding: 20px 10px 0 10px;
+  text-align: center;
+  display: inline-block;
+  margin: 100px 0 0 60px;
+}
+
+.card3 {
+  height: 350px;
+  width: 350px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0 0 53px;
+  padding: 20px 10px 0 10px;
+  text-align: center;
+  float: right;
+  margin: 125px 50px 0 0;
+}
+
+/* arrows */
+.arrow-right {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  cursor: pointer;
+  margin: 10px 0 90px 50px;
+}
+
+.arrow-left {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  cursor: pointer;
+  margin: 0 0 100px 25px;
+}
+
+/* arrows end */
+
 /* partner */
 .partner {
   width: 100%;
@@ -348,7 +444,7 @@ button {
 }
 
 .partner img {
-  margin: 20px 20px;
+  margin: 20px 50px;
   width: 200px;
   height: 200px;
 }
