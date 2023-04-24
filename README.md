@@ -1,36 +1,27 @@
-# HYF Website Redesign
+# HYF Website Redesign - Group 3
 
-> A longer description
-
-A website redesign is a high-level overhaul that involves significantly changing
-elements like the code, content, structure, and visuals of your current website
-to better serve your visitors.
+> In this project, we work on recreating HackYourFuture.be. By rebuilding the
+> page , we focus on polishing our HTML/CSS skills and dive bit into making
+> reponsive websites.
 
 ## Table of contents
 
-- [Name of project](#name-of-project)
-  - [Table of contents](#table-of-contents)
+- [HYF rebuild](#name-of-project)
+
   - [General info](#general-info)
-  - [Screenshots](#screenshots)
+  - [Screenshot](#screenshots)
   - [Technologies](#technologies)
   - [Setup](#setup)
-  - [Code Examples](#code-examples)
-  - [Features](#features)
-  - [Status](#status)
-  - [Inspiration](#inspiration)
-  - [Contact](#contact)
   - [Instructions for use](#instructions-for-use)
-  - [Code Quality Checks](#code-quality-checks)
-  - [Continuous Integration (CI)](#continuous-integration-ci)
-  - [Repo Setup](#repo-setup)
+  - [Team members](#team-members)
 
 ## General info
 
-> A short description
+> Here are more information on this repo
 
 ## Screenshots
 
-![Hack Your Future](./public/hyfwebsite.png)
+![Hack Your Future](./public/screenshot.png)
 
 ## Technologies
 
@@ -45,26 +36,15 @@ to better serve your visitors.
 
 ## Setup
 
-### Clone the Repo
+- Pulled template from HYF home repo.
+- Create html for each single page.
+- Each team member works on one or two pages.
 
-[HYF](http://github.com/HYF-class-21/agile-development-group3-hyf-redesign)
+## Instructions for use
 
-### npm commands
-
-- run npm commands
-
-## Features
-
-To-do list:
-
-- Navbar & Header
-- Main Section
-  - Info About the Programs
-  - Graduation Statistics
-  - Core Values & Succes Stories
-  - Partners
-  - Support Box & Contact
-- Footer
+- For people who want to see the website can click on the link under the repo
+  settings
+- For people who would like to reuse the code, please clone the repo.
 
 ## Inspiration
 
