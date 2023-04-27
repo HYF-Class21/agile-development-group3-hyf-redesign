@@ -168,7 +168,6 @@ button {
 /* needs to be smaller */
 .mainpic {
   width: 100%;
-  height: 550px;
   filter: brightness(80%);
 }
 
@@ -178,7 +177,7 @@ button {
 
 .introduction {
   width: 100%;
-  height: 400px;
+  height: 500px;
 }
 
 .introtext {
@@ -206,7 +205,6 @@ button {
 
 .intropic img {
   width: 45%;
-  height: 45%;
   float: right;
   margin: 40px 40px;
 }
@@ -258,7 +256,7 @@ button {
   padding: 20px;
   margin: 20px 0;
   color: white;
-  border-radius: 15%;
+  border-radius: 20px;
 }
 
 .box2 {
@@ -271,7 +269,7 @@ button {
   /* fix third box float outside 2 */
   display: inline-block;
   color: white;
-  border-radius: 15%;
+  border-radius: 20px;
 }
 
 .box3 {
@@ -282,7 +280,7 @@ button {
   margin: 20px auto;
   float: right;
   color: white;
-  border-radius: 15%;
+  border-radius: 20px;
 }
 
 /* corevalue */
@@ -432,7 +430,7 @@ button {
 /* partner */
 .partner {
   width: 100%;
-  height: 750px;
+  height: 900px;
   box-shadow: rgba(0, 0, 0, 0.08) 0 0 53px;
 }
 
@@ -446,7 +444,6 @@ button {
 .partner img {
   margin: 20px 50px;
   width: 200px;
-  height: 200px;
 }
 
 /* Support */
@@ -674,4 +671,42 @@ button {
 
 .socials img {
   margin: 20px 10px;
+}
+
+@media screen and (max-width: 850px) {
+  .class h1 {
+    font-size: 48px;
+  }
+
+  .container {
+    width: 100%;
+    height: 300px;
+  }
+
+  .navi ul {
+    height: 200px;
+    flex-direction: column;
+    text-align: center;
+    margin: 40px 0 0 250px;
+  }
+
+  .navi li {
+    margin-bottom: 10px;
+  }
+
+  .navi a {
+    font-size: 20px;
+  }
+
+  .navi a:hover {
+    border-bottom: none;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .partner img {
+    display: none;
+  }
 }
